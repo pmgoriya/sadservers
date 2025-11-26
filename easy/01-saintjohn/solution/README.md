@@ -1,0 +1,4 @@
+- We are not aware which exact file or the ppyhton program is running and writing to the log file.
+    - Use `lsof /var/log/bad.log` to find out which exact process is writing to the file.
+    - Here we will get the process id. `kill <pid>`
+- In this way the process that was writing to the bad log file is deleted.
