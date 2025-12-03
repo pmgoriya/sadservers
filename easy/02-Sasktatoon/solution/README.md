@@ -4,4 +4,4 @@
 4. To get the largest first using `sort -nr`
 
 - Final command being:
-    `awk -F' ' '{print $1}' access.log | sort | uniq -c | sort -nr`
+    `awk -F' ' '{print $1}' access.log | sort | uniq -c | sort -nr `
